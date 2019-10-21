@@ -6,16 +6,14 @@ int main(int argc, char *argu[]){
 	numero=atof(argu[1]);
 	operador=atof(argu[2]);
 	suma=numero+operador;
-    printf("\n La suma es: %.2f\n",suma);
+    printf("%.2f\n",suma);
     resta=numero-operador;
-	printf("\n La resta es: %.2f\n", resta);
+	printf("%.2f\n", resta);
 	division=numero/operador;
-	printf("\n La division es: %.2f\n", division);
+	printf("%.2f\n", division);
 	multip=numero*operador;
-	printf("\n La multiplicacion es: %.2f\n",multip);
+	printf("%.2f\n",multip);
 
 	return 0;
 
  }
-
- 
