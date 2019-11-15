@@ -5,29 +5,36 @@ int valor(char n){ //funcion principal
 	int z;// Declara variable 
 	switch(n){ //Se utiliza switch por que pueden haber varios casos de entrada
 	case 'J'://entrada con valor J
-	 z=10;//salida 10
-	 break;//abandona caso J
+
+	       z=10;//salida 10
+	       break;//abandona caso J
 	case 'Q'://entrada con valor Q
-	 z=10;//salida 10
-	 break;//abandona caso
+
+	     z=10;//salida 10
+	     break;//abandona caso
 	case 'K'://entrada
-	 z=10;//salida
-	 break;//abandona caso
+
+	     z=10;//salida
+	     break;//abandona caso
 	case 'A':
-	 z=11
-	 break;
+
+	     z=11;
+	     break;
 	case 'j':
-	 z=10;
-	 break;
+
+	     z=10;
+	     break;
 	case 'q':
-	 z=10; 
-	 break;
+
+	     z=10; 
+	     break;
 	case 'k':
-	 z=10;
-	 break;
+
+	     z=10;
+	     break;
 	case 'a':
-	 z=11;
-	 break;
+	     z=11;
+	     break;
 	   
   }
   return z;//La ejecucion abandona la funcion
